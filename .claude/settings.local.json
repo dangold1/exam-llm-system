@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(brew services:*)",
+      "Bash(mongosh --eval \"db.runCommand\\({ping:1}\\)\" --quiet)",
+      "Bash(brew list:*)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(npx vite:*)",
+      "Read(//Users/dangoldshtein/.pyenv/versions/3.10.15/bin/**)",
+      "Bash(/Users/dangoldshtein/Desktop/exam-system/python/server/venv/bin/python -c \"import flask, pymongo, openai, dotenv; print\\('flask, pymongo, openai, dotenv — OK'\\)\")",
+      "Bash(curl -s http://localhost:5000/)",
+      "Bash(curl -s http://localhost:5000/questions)",
+      "Bash(launchctl list:*)"
+    ]
+  }
+}

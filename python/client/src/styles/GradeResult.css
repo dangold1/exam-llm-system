@@ -1,0 +1,86 @@
+.grades-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.grades-section h2 {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.grades-total {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.grade-result {
+  border: 1px solid #ddd;
+  border-left: 5px solid #999;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 14px;
+  background: #fafafa;
+}
+
+.grade-result.grade-good { border-left-color: #4CAF50; }
+.grade-result.grade-ok   { border-left-color: #ff9800; }
+.grade-result.grade-low  { border-left-color: #f44336; }
+.grade-result.grade-failed {
+  border-left-color: #6a1b9a;
+  background: #f3e5f5;
+}
+
+.grade-failed-badge {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6a1b9a;
+  margin-left: 8px;
+}
+
+.grade-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.grade-qid {
+  font-weight: 600;
+  color: #555;
+}
+
+.grade-score {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.grade-qtext {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.grade-feedback {
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.grade-criteria {
+  font-size: 0.9rem;
+}
+
+.criteria.matched { color: #2e7d32; }
+.criteria.missed  { color: #c62828; }
+.criteria { margin-top: 4px; }
+
+.grading-indicator {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+  font-style: italic;
+}
